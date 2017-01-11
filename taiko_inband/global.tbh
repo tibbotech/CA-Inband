@@ -1,0 +1,2 @@
+declare function send(byref data as string) as byte
+declare function get_http_argument(byref http_req_string as string, byref argument as string) as string

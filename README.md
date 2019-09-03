@@ -1,5 +1,3 @@
-# CA-Inband
+# Controlling LEDs Using Inband Commands
 
-To download the most recent project without installing GIT, please press the green "Clone or Download" button and select "Download ZIP".
-
-For more detail about this project, please visit <a href="http://tibbo.com/programmable/applications/examples/controlling_led.html" target="_blank">Project Description Page</a>
+This demo shows how simple it is to implement inband commands. Using the $ and % characters as delimiters, you can control the LEDs of your device with a telnet connection, and also transfer data.

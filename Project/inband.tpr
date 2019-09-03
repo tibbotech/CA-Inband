@@ -1,0 +1,28 @@
+[project]
+version = 1
+platform = TPP3W(G2)
+src_lib_ver = 2_01_03
+name = Inband Demo
+output = output.bin
+debug = on
+defines = 
+transport = udp_broadcast
+
+[address1]
+platform = TPP3W(G2)
+transport = udp_broadcast
+address = 0.10.2.3.4.100
+
+[address2]
+platform = em203
+transport = udp_broadcast
+address = 0.10.2.3.4.100
+
+[file1]
+path = main.tbs
+type = basic
+format = 
+condition = 
+locked = no
+location = 
+
